@@ -21,6 +21,10 @@
   <body>
     <%- include('nav.html')  %>
 
+    <div class="container input-group mb-2">
+      <input class="form-control">
+      <button class="input-group-append btn btn-danger">검색</button>
+    </div>
    <div class="container">
     <ul class="list-group">
       <% for(var i =0; i<posts.length; i++) { %>
